@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    borderRadius: {
+      "primary-button": "5px",
+      "tag-button": "17.5px",
+      "chat-text-field": "20.5px",
+    },
     fontFamily: {
       body: ["Noto Sans KR"],
     },
@@ -51,6 +56,7 @@ export default {
       mono300: "#d6d7d9",
       error: "#d01e1e",
       social: "#395997",
+      "dark-opacity": "rgba(225, 225, 225, 0.1)",
     },
   },
   plugins: [],
