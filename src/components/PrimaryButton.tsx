@@ -28,7 +28,7 @@ export default function PrimaryButton({
 }: IPrimaryButtonProps) {
   return (
     <button
-      className={`rounded-primary-button w-full h-[59px] ${disabledStyle} ${color[theme]}`}
+      className={`rounded-button-default w-full h-[59px] ${disabledStyle} ${color[theme]}`}
       disabled={disabled}
       onClick={onClick}
     >
