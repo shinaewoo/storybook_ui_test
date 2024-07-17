@@ -39,6 +39,7 @@ export default function DefaultTextField({
         onBlur={() => setIsFocused(false)}
       >
         <input
+          data-testid={id}
           id={id}
           type="text"
           className="outline-none"
