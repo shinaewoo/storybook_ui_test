@@ -10,12 +10,12 @@ export default function TagButton({
   onClick,
 }: ITagButtonProps) {
   const buttonStyle = isChecked
-    ? "bg-white text-primary"
-    : "text-white bg-dark-opacity";
+    ? "bg-primary text-white"
+    : "text-primary bg-dark-opacity";
 
   return (
     <button
-      className={`rounded-tag-button px-[10px] border border-white h-[33px] ${buttonStyle} text-sm font-medium`}
+      className={`rounded-tag-button px-[10px] border border-primary h-[33px] ${buttonStyle} text-sm font-medium`}
       onClick={onClick}
     >
       {children}
